@@ -1,64 +1,121 @@
 html{
     box-sizing: border-box;
 }
-body, header{
+body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
 }
-
-@media all and (min-width: 1200px){
+@media all and (min-width: 800px){
     header{
-        width: 100%;
-        height: 12%;
-        background-color: #777;
-        border: 2px solid darkred;
-    }
-    ul{
-        list-style-type: none;
         padding: 0;
         margin: 0;
-        border: 2px solid #000;
+        box-sizing: border-box;
         width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    main{
-        width: 100%;
-        height: 78%;
-        background-color: #000;
-        opacity: 80%;
-    }
-    footer{
-        width: 100%;
-        height: 10%;
+        height: 30%;
         background-color: #777;
-    }
-}
-
-@media all and (min-width: 1600px){
-    header{
-        width: 100%;
-        height: 12%;
-        background-color: #777;
-        border: 2px solid darkred;
     }
     nav{
         width: 100%;
         text-align: center;
         display: flex;
         justify-content: center;
-        border: 2px solid pink;
         height: 90%;
     }
     ul{
         list-style-type: none;
         padding: 0;
         margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         border: 2px solid #000;
+    }
+    ul li{
+        border: 2px solid #000;
+    }
+    ul li a{
+        text-decoration: none;
+        color: #000;
+        font-family: system-ui, sans-serif;
+        padding-inline-start: 1rem;
+        font-size: 1em;
+        line-height: 1em;
+    }
+}
+
+@media all and (min-width: 1200px){
+    header{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 12%;
+        background-color: #777;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 90%;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    ul li {
+        display: inline;
+    }
+    ul li a{
+        text-decoration: none;
+        color: #000;
+        font-family: system-ui, sans-serif;
+        padding-inline-start: 1rem;
+        font-size: 1em;
+    }
+    main{
+        width: 100%;
+        height: 74%;
+        background-color: #000;
+        opacity: 80%;
+    }
+    footer{
+        width: 100%;
+        height: 16%;
+        background-color: #777;
+    }
+}
+
+@media all and (min-width: 1600px){
+    header{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 12%;
+        background-color: #777;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        height: 90%;
+    }
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
         width: 100%;
         display: flex;
         align-items: center;
