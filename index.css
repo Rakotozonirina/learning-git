@@ -25,6 +25,10 @@ body{
         height: 90%;
         display: table;
     }
+    nav div{
+        margin-inline-start: 1rem;
+        margin-block-start: 1rem;
+    }
     ul{
         list-style-type: none;
         padding: 0;
@@ -38,9 +42,14 @@ body{
     }
     ul li.li1{
         margin-block-end: 1rem;
+        padding-inline-end: 4rem;
     }
     ul li.li2{
         margin-block-end: 1rem;
+        padding-inline-end: 3.8rem;
+    }
+    ul li.li3{
+        padding-inline-end: 3.4rem;
     }
     ul li a{
         text-decoration: none;
@@ -68,6 +77,14 @@ body{
         justify-content: center;
         height: 90%;
     }
+    nav div {
+        height: 100%;
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
     ul{
         list-style-type: none;
         padding: 0;
@@ -83,16 +100,22 @@ body{
     }
     ul li.li1{
         margin-block-end: 0rem;
+        padding-inline-end: 0rem;
     }
     ul li.li2{
         margin-block-end: 0rem;
+        padding-inline-end: 0rem;
+    }
+    ul li.li3{
+        padding-inline-end: 0rem;
+        padding-inline-end: 0rem;
     }
     ul li a{
         text-decoration: none;
         color: #000;
         font-family: system-ui, sans-serif;
         padding-inline-start: 1rem;
-        font-size: 1em;
+        font-size: 1.4em;
     }
     main{
         width: 100%;
@@ -138,16 +161,21 @@ body{
     }
     ul li.li1{
         margin-block-end: 0rem;
+        padding-inline-end: 0rem;
     }
     ul li.li2{
         margin-block-end: 0rem;
+        padding-inline-end: 0rem;
+    }
+    ul li.li3{
+        padding-inline-end: 0rem;
     }
     ul li a{
         text-decoration: none;
         color: #000;
         font-family: system-ui, sans-serif;
         padding-inline-start: 1rem;
-        font-size: 1.4em;
+        font-size: 1.8em;
     }
     main{
         width: 100%;
