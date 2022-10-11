@@ -24,6 +24,16 @@ nav{
     height: 90%;
     display: table;
 }
+nav div{
+    margin-inline-start: 1rem;
+    margin-block-start: 1rem;
+}
+nav div svg.menu{
+    display: block;
+}
+nav div svg.close{
+    display: none;
+}
 ul{
     list-style-type: none;
     padding: 0;
@@ -31,6 +41,39 @@ ul{
     width: 100%;
     display: table-cell;
     vertical-align: middle;
+    display: none;
+}
+ul li{
+    display: block;
+}
+ul li.li1{
+    margin-block-end: 2rem;
+    padding-inline-end: 2rem;
+}
+ul li.li2{
+    margin-block-end: 2rem;
+    padding-inline-end: 2rem;
+}
+ul li.li3{
+    padding-inline-end: 2rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: system-ui, sans-serif;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+main{
+    width: 100%;
+    background-color: #000;
+    opacity: 80%;
+    height: 78rem;
+}
+footer{
+    width: 100%;
+    height: 28rem;
+    background-color: #777;
 }
 @media all and (min-width: 800px){
     header{
@@ -52,6 +95,12 @@ ul{
     nav div{
         margin-inline-start: 1rem;
         margin-block-start: 1rem;
+    }
+    nav div svg.menu{
+        display: block;
+        cursor: pointer;
+    }
+    nav div svg.close{
         display: none;
     }
     ul{
