@@ -22,6 +22,15 @@ nav{
     height: 90%;
     display: table;
 }
+nav div.contenus_brand{
+    margin-inline-start: 0rem;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+nav div.contenus_brand svg{
+    margin-inline-end: 1rem;
+}
 nav div{
     margin-inline-start: 1rem;
     margin-block-start: 1rem;
@@ -105,6 +114,15 @@ footer{
         text-align: center;
         height: 90%;
         display: table;
+    }
+    nav div.contenus_brand{
+        margin-inline-start: 0rem;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+    }
+    nav div.contenus_brand svg{
+        margin-inline-end: 1rem;
     }
     nav div{
         margin-inline-start: 1rem;
@@ -191,6 +209,20 @@ footer{
         width: 100%;
         text-align: center;
         height: 90%;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        align-content: center;
+    }
+    nav div.contenus_brand{
+        display: block;
+    }
+    nav div.contenus_brand svg{
+        cursor: pointer;
+    }
+    nav div.contenus_brand svg:hover{
+        fill: #333;
+        stroke: none;
     }
     nav div {
         height: 100%;
@@ -209,7 +241,7 @@ footer{
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        margin-block-start: 1.4rem;
+        margin-block-start: 0.9rem;
     }
     ul li {
         display: inline;
@@ -273,6 +305,20 @@ footer{
         width: 100%;
         text-align: center;
         height: 90%;
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        align-content: center;
+    }
+    nav div.contenus_brand{
+        display: block;
+    }
+    nav div.contenus_brand svg{
+        cursor: pointer;
+    }
+    nav div.contenus_brand svg:hover{
+        fill: #333;
+        stroke: none;
     }
     ul{
         list-style-type: none;
@@ -283,7 +329,7 @@ footer{
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        margin-block-start: 1.4rem;
+        margin-block-start: 1rem;
     }
     ul li{
         display: inline;
