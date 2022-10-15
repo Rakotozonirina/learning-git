@@ -224,7 +224,7 @@ footer{
     }
     nav div.content_of_icons div.contenus_brand svg{
         cursor: pointer;
-        transition: width 0.5s, height 0.5s;
+        transition: width 0.5s, height 0.5s, transform 0.5s;
         width: 24px;
         height: 24px;
     }
@@ -233,6 +233,7 @@ footer{
         stroke: none;
         width: 48px;
         height: 48px;
+        transform: rotate(180deg);
     }
     nav div.content_of_icons div {
         display: none;
