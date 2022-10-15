@@ -95,9 +95,25 @@ ul li a:active{
 }
 main{
     width: 100%;
-    background-color: #000;
-    opacity: 80%;
-    height: 78rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100rem;
+}
+main div.name{
+    border: 2px solid #000;
+    width: 100%;
+}
+main div.image_frist{
+    width: 100%;
+    height: 40rem;
+    border: 2px solid #000;
+}
+main div.my_speech{
+    border: 2px solid #000;
+}
+main div.image_seconds{
+    width: 100%;
+    height: 40rem;
+    border: 2px solid #000;
 }
 footer{
     width: 100%;
@@ -194,8 +210,7 @@ footer{
     }
     main{
         width: 100%;
-        background-color: #000;
-        opacity: 80%;
+        background-color: rgba(0, 0, 0, 0.8);
         height: 74rem;
     }
     footer{
@@ -301,8 +316,7 @@ footer{
     main{
         width: 100%;
         height: 74%;
-        background-color: #000;
-        opacity: 80%;
+        background-color: rgba(0, 0, 0, 0.8);
     }
     footer{
         width: 100%;
