@@ -209,7 +209,7 @@ footer{
         color: #999;
         font-family: system-ui, sans-serif;
         padding-inline-start: 1rem;
-        font-size: 2em;
+        font-size: 175%;
         line-height: 1em;
     }
     ul li a:link{
@@ -229,7 +229,48 @@ footer{
     main{
         width: 100%;
         background-color: rgba(0, 0, 0, 0.8);
-        height: 74rem;
+        height: 150rem;
+        font-family: system-ui, sans-serif;
+        margin-block-start: 0rem;
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        align-content: space-evenly;
+        place-items: center;
+    }
+    main div.name{
+        width: calc(100% - 4rem);
+        text-align: center;
+    }
+    main div.name h1{
+        font-size: 300%;
+        font-display: swap;
+    }
+    main div.image_frist{
+        width: calc(100% - 4rem);
+        height: 30rem;
+    }
+    main div.image_frist img{
+        max-inline-size: 100%;
+        block-size: auto;
+    }
+    main div.my_speech{
+        width: calc(100% - 4rem);
+        text-align: center;
+    }
+    main div.my_speech p{
+        font-size: 175%;
+        font-display: swap;
+    }
+    main div.image_seconds{
+        width: calc(100% - 4rem);
+        height: 30rem;
+    }
+    main div.image_seconds img{
+        max-inline-size: 100%;
+        block-size: auto;
+        aspect-ratio: 2/1;
+        object-fit: cover;
+        object-position: top center;
     }
     footer{
         width: 100%;
