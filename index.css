@@ -97,39 +97,52 @@ main{
     font-family: system-ui, sans-serif;
     margin-block-start: 0rem;
     display: grid;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto;
+    align-content: space-evenly;
+}
+main div.hero_left{
+    display: grid;
+    grid-template-rows: auto auto;
     align-content: space-evenly;
     place-items: center;
+    height: 35rem;
 }
-main div.name{
+main div.hero_left div.name{
     width: calc(100% - 2rem);
     text-align: center;
 }
-main div.name h1{
+main div.hero_left div.name h1{
     font-size: 200%;
     font-display: swap;
 }
-main div.image_frist{
+main div.hero_left div.image_frist{
     width: calc(100% - 2rem);
     height: 20rem;
 }
-main div.image_frist img{
+main div.hero_left div.image_frist img{
     max-inline-size: 100%;
     block-size: auto;
 }
-main div.my_speech{
+main div.hero_right{
+    display: grid;
+    grid-template-rows: auto auto;
+    align-content: space-evenly;
+    place-items: center;
+    height: 35rem;
+}
+main div.hero_right div.my_speech{
     width: calc(100% - 2rem);
     text-align: center;
 }
-main div.my_speech p{
+main div.hero_right div.my_speech p{
     font-size: 150%;
     font-display: swap;
 }
-main div.image_seconds{
+main div.hero_right div.image_seconds{
     width: calc(100% - 2rem);
     height: 20rem;
 }
-main div.image_seconds img{
+main div.hero_right div.image_seconds img{
     max-inline-size: 100%;
     block-size: auto;
     aspect-ratio: 2/1;
@@ -229,43 +242,56 @@ footer{
     main{
         width: 100%;
         background-color: rgba(0, 0, 0, 0.8);
-        height: 150rem;
+        height: 170rem;
         font-family: system-ui, sans-serif;
         margin-block-start: 0rem;
         display: grid;
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: auto auto;
+        align-content: space-evenly;
+    }
+    main div.hero_left{
+        display: grid;
+        grid-template-rows: auto auto;
         align-content: space-evenly;
         place-items: center;
+        height: 70rem;
     }
-    main div.name{
+    main div.hero_left div.name{
         width: calc(100% - 4rem);
         text-align: center;
     }
-    main div.name h1{
+    main div.hero_left div.name h1{
         font-size: 300%;
         font-display: swap;
     }
-    main div.image_frist{
+    main div.hero_left div.image_frist{
         width: calc(100% - 4rem);
         height: 30rem;
     }
-    main div.image_frist img{
+    main div.hero_left div.image_frist img{
         max-inline-size: 100%;
         block-size: auto;
     }
-    main div.my_speech{
+    main div.hero_right{
+        display: grid;
+        grid-template-rows: auto auto;
+        align-content: space-evenly;
+        place-items: center;
+        height: 70rem;
+    }
+    main div.hero_right div.my_speech{
         width: calc(100% - 4rem);
         text-align: center;
     }
-    main div.my_speech p{
+    main div.hero_right div.my_speech p{
         font-size: 175%;
         font-display: swap;
     }
-    main div.image_seconds{
+    main div.hero_right div.image_seconds{
         width: calc(100% - 4rem);
         height: 30rem;
     }
-    main div.image_seconds img{
+    main div.hero_right div.image_seconds img{
         max-inline-size: 100%;
         block-size: auto;
         aspect-ratio: 2/1;
@@ -377,6 +403,7 @@ footer{
         margin-block-start: 0rem;
         display: grid;
         grid-template-columns: auto auto;
+        border: 2px solid #000;
     }
     main div.name{
         width: calc(100% - 4rem);
