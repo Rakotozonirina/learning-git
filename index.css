@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 html{
     box-sizing: border-box;
 }
@@ -122,6 +124,7 @@ main div.hero_left div.image_frist{
 main div.hero_left div.image_frist img{
     max-inline-size: 100%;
     block-size: auto;
+    border-radius: 8px;
 }
 main div.hero_right{
     display: grid;
@@ -148,6 +151,7 @@ main div.hero_right div.image_seconds img{
     aspect-ratio: 2/1;
     object-fit: cover;
     object-position: top center;
+    border-radius: 8px;
 }
 footer{
     width: 100%;
@@ -220,7 +224,7 @@ footer{
     ul li a{
         text-decoration: none;
         color: #999;
-        font-family: system-ui, sans-serif;
+        font-family: 'Work Sans', sans-serif;
         padding-inline-start: 1rem;
         font-size: 175%;
         line-height: 1em;
@@ -263,6 +267,7 @@ footer{
     main div.hero_left div.name h1{
         font-size: 300%;
         font-display: swap;
+        font-family: Fuzzy Bubbles, sans-serif;
     }
     main div.hero_left div.image_frist{
         width: calc(100% - 4rem);
@@ -271,6 +276,7 @@ footer{
     main div.hero_left div.image_frist img{
         max-inline-size: 100%;
         block-size: auto;
+        border-radius: 8px;
     }
     main div.hero_right{
         display: grid;
@@ -286,6 +292,7 @@ footer{
     main div.hero_right div.my_speech p{
         font-size: 175%;
         font-display: swap;
+        font-family: 'Work Sans', sans-serif;
     }
     main div.hero_right div.image_seconds{
         width: calc(100% - 4rem);
@@ -297,6 +304,7 @@ footer{
         aspect-ratio: 2/1;
         object-fit: cover;
         object-position: top center;
+        border-radius: 8px;
     }
     footer{
         width: 100%;
@@ -377,7 +385,7 @@ footer{
     ul li a{
         text-decoration: none;
         color: #000;
-        font-family: system-ui, sans-serif;
+        font-family: 'Work Sans', sans-serif;
         padding-inline-start: 1rem;
         font-size: 1.4em;
     }
@@ -399,7 +407,6 @@ footer{
         width: 100%;
         height: 80%;
         background-color: rgba(0, 0, 0, 0.8);
-        font-family: system-ui, sans-serif;
         margin-block-start: 0rem;
         display: grid;
         grid-template-columns: auto auto;
@@ -420,6 +427,7 @@ footer{
     main div.hero_left div.name h1{
         font-size: 175%;
         font-display: swap;
+        font-family: Fuzzy Bubbles, sans-serif;
     }
     main div.hero_left div.image_frist{
         width: calc(100% - 4rem);
@@ -428,6 +436,7 @@ footer{
     main div.hero_left div.image_frist img{
         max-inline-size: 100%;
         block-size: auto;
+        border-radius: 8px;
     }
     main div.hero_right{
         display: grid;
@@ -443,6 +452,7 @@ footer{
     main div.hero_right div.my_speech p{
         font-size: 136%;
         font-display: swap;
+        font-family: 'Work Sans', sans-serif;
     }
     main div.hero_right div.image_seconds{
         width: calc(100% - 4rem);
@@ -454,11 +464,12 @@ footer{
         aspect-ratio: 2/1;
         object-fit: cover;
         object-position: top center;
+        border-radius: 8px;
     }
     footer{
         width: 100%;
         height: 10%;
-        background-color: #777;
+        background-color:rgba(0, 0, 0, 0.8);
     }
 }
 ::-webkit-scrollbar{
