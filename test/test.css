@@ -371,12 +371,13 @@ footer{
         padding-inline-end: 0rem;
         text-decoration: underline;
     }
-    ul li.li1 a{
-        color: #333;
-    }
+    
     ul li.li2{
         margin-block-end: 0rem;
         padding-inline-end: 0rem;
+    }
+    ul li.li2 a{
+        color: #333;
     }
     ul li.li3{
         padding-inline-end: 0rem;
