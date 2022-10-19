@@ -27,6 +27,9 @@ nav div.content_of_icons{
     justify-content: space-around;
     margin-block-start: 2rem;
 }
+nav div.content_of_icons a{
+    color: #000;
+}
 nav div.content_of_icons div.contenus_brand svg{
     cursor: pointer;
     width: 2rem;
@@ -176,6 +179,9 @@ footer{
         width: 100%;
         justify-content: space-around;
         margin-block-start: 2rem;
+    }
+    nav div.content_of_icons a{
+        color: #000;
     }
     nav div.content_of_icons div.contenus_brand svg{
         cursor: pointer;
