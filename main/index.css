@@ -116,15 +116,21 @@ main div.hero_left div.name{
 main div.hero_left div.name h1{
     font-size: 200%;
     font-display: swap;
+    color: #999;
 }
 main div.hero_left div.image_frist{
     width: calc(100% - 2rem);
     height: 20rem;
 }
-main div.hero_left div.image_frist img{
+main div.hero_left div.image_frist a img{
     max-inline-size: 100%;
     block-size: auto;
     border-radius: 8px;
+    opacity: 0.5;
+    transition: opacity .5s ease-in-out .5s;
+}
+main div.hero_left div.image_frist a img:hover{
+    opacity: 1;
 }
 main div.hero_right{
     display: grid;
@@ -140,18 +146,24 @@ main div.hero_right div.my_speech{
 main div.hero_right div.my_speech p{
     font-size: 150%;
     font-display: swap;
+    color: #999;
 }
 main div.hero_right div.image_seconds{
     width: calc(100% - 2rem);
     height: 20rem;
 }
-main div.hero_right div.image_seconds img{
+main div.hero_right div.image_seconds a img{
     max-inline-size: 100%;
     block-size: auto;
     aspect-ratio: 2/1;
     object-fit: cover;
     object-position: top center;
     border-radius: 8px;
+    opacity: 0.5;
+    transition: opacity .5s ease-in-out .5s;
+}
+main div.hero_right div.image_seconds a img:hover{
+    opacity: 1;
 }
 footer{
     width: 100%;
@@ -268,15 +280,21 @@ footer{
         font-size: 300%;
         font-display: swap;
         font-family: Fuzzy Bubbles, sans-serif;
+        color: #999;
     }
     main div.hero_left div.image_frist{
         width: calc(100% - 4rem);
         height: 30rem;
     }
-    main div.hero_left div.image_frist img{
+    main div.hero_left div.image_frist a img{
         max-inline-size: 100%;
         block-size: auto;
         border-radius: 8px;
+        opacity: 0.5;
+        transition: opacity .5s ease-in-out .5s;
+    }
+    main div.hero_left div.image_frist a img:hover{
+        opacity: 1;
     }
     main div.hero_right{
         display: grid;
@@ -293,18 +311,24 @@ footer{
         font-size: 175%;
         font-display: swap;
         font-family: 'Work Sans', sans-serif;
+        color: #999;
     }
     main div.hero_right div.image_seconds{
         width: calc(100% - 4rem);
         height: 30rem;
     }
-    main div.hero_right div.image_seconds img{
+    main div.hero_right div.image_seconds a img{
         max-inline-size: 100%;
         block-size: auto;
         aspect-ratio: 2/1;
         object-fit: cover;
         object-position: top center;
         border-radius: 8px;
+        opacity: 0.5;
+        transition: opacity .5s ease-in-out .5s;
+    }
+    main div.hero_right div.image_seconds a img:hover{
+        opacity: 1;
     }
     footer{
         width: 100%;
@@ -314,7 +338,7 @@ footer{
     .show{display: block;}
 }
 
-@media all and (min-width: 1200px){
+@media (min-width: 1200px) and (min-height: 500px){
     header{
         width: 100%;
         height: 12%;
@@ -428,15 +452,21 @@ footer{
         font-size: 175%;
         font-display: swap;
         font-family: Fuzzy Bubbles, sans-serif;
+        color: #999;
     }
     main div.hero_left div.image_frist{
         width: calc(100% - 4rem);
         height: 20rem;
     }
-    main div.hero_left div.image_frist img{
+    main div.hero_left div.image_frist a img{
         max-inline-size: 100%;
         block-size: auto;
         border-radius: 8px;
+        opacity: 0.5;
+        transition: opacity .5s ease-in-out .5s;
+    }
+    main div.hero_left div.image_frist a img:hover{
+        opacity: 1;
     }
     main div.hero_right{
         display: grid;
@@ -453,18 +483,24 @@ footer{
         font-size: 136%;
         font-display: swap;
         font-family: 'Work Sans', sans-serif;
+        color: #999;
     }
     main div.hero_right div.image_seconds{
         width: calc(100% - 4rem);
         height: 18rem;
     }
-    main div.hero_right div.image_seconds img{
+    main div.hero_right div.image_seconds a img{
         max-inline-size: 100%;
         block-size: auto;
         aspect-ratio: 2/1;
         object-fit: cover;
         object-position: top center;
         border-radius: 8px;
+        opacity: 0.5;
+        transition: opacity .5s ease-in-out .5s;
+    }
+    main div.hero_right div.image_seconds a img:hover{
+        opacity: 1;
     }
     footer{
         width: 100%;
