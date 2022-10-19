@@ -332,7 +332,10 @@ footer{
     nav div.content_of_icons{
         margin-block-start: 0rem;
     }
-    nav div.content_of_icons div.contenus_brand{
+    nav div.content_of_icons a{
+        color: #000;
+    }
+    nav div.content_of_icons a div.contenus_brand{
         display: block;
     }
     nav div.content_of_icons div.contenus_brand svg{
